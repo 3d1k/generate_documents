@@ -1,0 +1,106 @@
+body,table{
+		font-family: 'Open Sans',sans-serif;
+		font-size: 12px;
+
+		/*font-weight: 700;*/
+	}
+	body{
+		/*padding:1cm 1cm 0 1cm;*/
+		width:210mm;
+		height: 297mm;
+	}
+	table {
+
+		border-collapse: collapse;
+		/*border:2px solid black;*/
+		width: 100%;
+		
+	}
+       
+        
+	td{
+		border:2px solid black;
+	}
+    table#infoTable td{
+        border:0px #000 solid !important;
+       vertical-align: top;
+        
+    }
+    table#infoTable tr td{
+        
+        width:90px;
+    }
+	table#accountant tr td{
+		text-align: right;
+	}
+	
+	table#accountant  tr#header td#number{
+		width: 50px;
+	}
+	table#accountant  tr#header td#ammount{
+		width: 170px;
+	}
+
+	table#accountant tr#header td{
+		text-align: center;
+		width: 130px;
+		/*font: bold;*/
+	}
+	/*//ttr*/
+	p{
+		margin-top: 0.5em;
+		margin-bottom: 1em;
+	}
+	/*p#center_text{
+		font-weight: 700;
+	}*/
+	div#sign_layout{
+		
+		width:790px;
+		margin-top: 30px;
+		float: left;
+		
+	}
+
+	div.bottom_sign{
+		
+		width: 370px;
+		float:left;
+	}
+	div.bottom{
+		border-bottom: 1px black solid;
+
+	}
+	
+	div.fio{
+		float: left;
+	}
+	div.head_project{
+		float: left;
+		margin-right: 5px;
+		
+	}
+	div#company_print{
+		
+		padding:10px 10px 0 260px;
+		
+	}
+
+	table#sign{
+		margin-top:20px;
+	}
+ 	table#sign td{
+ 		
+       border:0px #000 solid !important;
+       vertical-align: bottom;
+        
+    }
+    table#sign tr.bottom_sign td.bottom_line{
+    	border-bottom: 1px black solid !important;
+    	width: 270px;
+    }
+    td.bottom_line img{
+		width:150px;
+		margin-bottom: -12px;
+		
+	}

@@ -1,0 +1,111 @@
+		body,table{
+			font-family: 'Open Sans',sans-serif;
+			font-size: 12px;
+
+		/*font-weight: 700;*/
+		}
+		body{
+			font-size: 10px;
+		}
+		#header_block{
+			width: 100%;
+			height: 45px;
+		}
+		#header_info {
+			float:right;
+			text-align: right;
+			font-size: 8;
+		}
+		#info{
+			font-size: 10;
+		}
+		#table{
+			 font-size: 12;
+			 border-collapse: collapse;
+			 border:0px #000 solid !important;
+
+		}
+		#table td{
+			border: 1px solid black;
+		}
+		#numbers td {
+			text-align: center;
+		}
+		.product_name{
+			text-align: left;
+		}
+		.products, #total{
+			text-align: right;
+		}
+		.head_description{
+			width: 150px;
+			font-size: 12;
+			vertical-align: center;
+		}
+		.blockWithLine{
+			display: inline-block;
+			float: right;
+			width: 100%;
+		}
+		.formNumber .blockWithLine{
+			width: 94%;
+		}
+		.textAtopLine{
+			position: relative;
+		}
+		.blockWithLine .textAtopLine{
+			font-size: 12px;
+			width: 100%;
+		}
+		div.line{
+			/*width: 100%;
+			height: 3px;
+			background-color: rgb(0,0,0);*/
+			/*border-bottom: 1px solid black !important;*/
+		}
+		.blockWithLine .textUnderLine{
+			width: 100%;
+			font-size: 8px;
+			text-align: center;
+			vertical-align: top;
+		}
+		.place_sign{
+			width: 100px;
+			border-bottom: 1px solid black !important;
+		}
+		.place_fio{
+			
+			width: 150px;
+			vertical-align: bottom;
+			border-bottom: 1px solid black !important;
+		}
+		.place_fio .textAtopLine
+		{
+			padding-left: 5px;
+		}
+		.place_big_sign{
+			/*margin-left: 15px;*/
+			width: 300px;
+			border-bottom: 1px solid black !important;
+		}
+		.inscription{
+			text-align: center;
+			vertical-align: top;
+			font-size: 8px;
+		}
+		img{
+			/*position: absolute;
+			top: -12px;
+			/left:0px;*/
+			margin-bottom: -13px;
+		}
+		/*#table_for_sign{
+
+		}*/
+		#table_for_sign tr{
+			/*height: 30px;*/
+		}
+
+		#head_sign_table{
+			height: 200px;
+		}

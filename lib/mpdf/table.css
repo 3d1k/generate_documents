@@ -1,0 +1,67 @@
+body,table{
+		font-family: 'Open Sans',sans-serif;
+		font-size: 12px;
+
+		/*font-weight: 700;*/
+	}
+	body{
+		/*padding:1cm 1cm 0 1cm;*/
+		width:210mm;
+		height: 297mm;
+	}
+	table {
+
+		border-collapse: collapse;
+		border:2px solid black;
+		width: 100%;
+		
+	}
+	td{
+		border:2px solid black;
+	}
+	table#accountant tr td{
+		text-align: right;
+	}
+	
+	table#accountant  tr#header td#number{
+		width: 50px;
+	}
+	table#accountant  tr#header td#ammount{
+		width: 200px;
+	}
+
+	table#accountant tr#header td{
+		text-align: center;
+		width: 100px;
+		/*font: bold;*/
+	}
+	/*//ttr*/
+	p{
+		margin-top: 0.5em;
+		margin-bottom: 1em;
+	}
+	/*p#center_text{
+		font-weight: 700;
+	}*/
+	div#sign{
+		height: 150px;
+		width:250px;
+		margin: 50px 0 0 50px;
+		background: url('news7.png') no-repeat;
+
+	}
+	div#bottom_sign{
+		/*display: block;*/
+		margin-top: 90px;
+	}
+	div#bottom_line{
+		width: 110px;
+		height: 2px;
+		margin-top:11px;
+		float:left; 
+		background-color: black;
+
+	}
+	div#fio{
+		float: left;
+	}

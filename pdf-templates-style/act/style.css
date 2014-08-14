@@ -1,0 +1,97 @@
+			body,table{
+				font-family: 'Open Sans',sans-serif;
+				font-size: 12px;
+
+			/*font-weight: 700;*/
+			}
+			#big_fat_line{
+				height: 3px;
+				background-color: black;
+				width: 100%;
+			}
+			.company_description{
+				font-weight: bold;
+			}
+
+			#products_table{
+				width: 100%;
+				border-collapse: collapse;
+				 border:0px #000 solid !important;
+			}
+			#products_table td{
+				border: 1px solid black;
+			}
+			#products_table .table_head{
+				font-weight: bold;
+			}
+			#total{
+				
+				width: 210px;
+				float: right;
+				
+			}
+			#total_table td{
+				font-weight: bold;
+				text-align: right;
+				
+			}
+			#total_values{
+				width: 10px;
+				float:right;
+				border: 1px solid black;
+				/*float:right;*/
+			}
+			#in_words{
+				font-weight: bold;
+				clear: both;
+			}
+			#text{
+				margin: 10px 0px 10 0px;
+			}
+			#sign_table{
+				border-collapse: collapse;
+				/*height:100px;*/
+				width: 90%;
+				margin:auto;
+			}
+			#sign_table td{
+				height: 20px;
+                                
+			}
+			.table_head td{
+				text-align: center;
+				font-weight: bold;
+				height: 40px;
+                               
+
+			}
+
+			.place_for_sign{
+				width: 150px;
+				border-bottom: 1px solid black !important;
+			}
+			.place_for_text{
+				
+				width: 200px;
+				text-align: center;
+				vertical-align: bottom;
+				border-bottom: 1px solid black !important;
+
+			}
+			/*.place_fio 
+			{
+				padding-left: 5px;
+			}*/
+			/*.place_big_sign{
+				/*margin-left: 15px;*/
+				/*width: 300px;
+				border-bottom: 1px solid black !important;
+			}*/
+			.inscription{
+				text-align: center;
+				vertical-align: top;
+				font-size: 8px;
+			}
+			
+
+	
